@@ -1,0 +1,186 @@
+/* Global styling starts here... */
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(216, 208, 208);   
+}
+/* Global styling ends here... */
+
+/* Modal Styling starts here...*/
+.addNoteButton{
+  background-color:rgb(255, 255, 255);
+  width: 420px;
+  margin-left: 300px;
+  margin-top: 20px;
+  padding: 8px;
+  border: none;  
+  border-radius: 8px;
+}
+
+.parentNote{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.noteModal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    display: none;
+    animation-name: modalAnimation;
+    animation-duration: 1s;
+    
+}
+@keyframes modalAnimation {
+    0%{
+        opacity: 0.1;
+        margin-bottom: 500px;
+    }
+    
+    100%{
+        opacity: 1;
+        margin-bottom: 0px;
+    }
+}
+
+
+.title{
+    width:300px;
+    height: 30px;
+    margin-bottom: 6px;
+    border: none;
+    outline: none;
+    background-color: tomato;
+    border-radius: 8px;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: large;
+}
+
+.message{
+    width:300px;
+    margin-bottom: 6px;
+    border: none;
+    resize: none;
+    outline: none;
+    background-color: tomato;
+    border-radius: 8px;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.save{
+    padding: 10px 20px;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    margin-left: 5px;
+}
+.close{
+    padding: 10px 20px;
+    background-color: deeppink;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    margin-right: 5px;
+}
+
+
+/* Modal Styling ends here...*/
+
+
+/* Note styling starts here... */
+.note{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+.notecontainer{
+    background-color: tomato;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    width: 220px;
+    min-height: 100px;
+    position: relative;
+}
+
+.titleDom{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: larger;
+    background-color: rgb(231, 92, 67);
+    padding: 10px;
+    margin: 5px 0px;
+    width: 200px;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    font-weight: bolder;
+}
+.messageDom{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 36px;
+    font-size: medium;
+    resize: none;
+    background-color: rgb(231, 92, 67);
+    width: 200px;
+    height:100px ;
+    outline: none;
+    border: none;
+}
+.deleteBtnDom{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    background-color: red;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    margin-right:5px;
+}
+.editBtnDom{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    background-color: blue;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+.titleDiv{
+    width: 200px;
+    min-height: 100px;
+}
+
+.messageDiv{
+    width: 200px;
+    min-height: 100px;
+}
+.saveNoteInput{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    background-color: green;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 13px;
+    left: 20px;
+    width: 219px;
+}
+/* Note styling ends here... */
