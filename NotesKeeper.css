@@ -9,11 +9,10 @@ body{
 /* Modal Styling starts here...*/
 .addNoteButton{
   background-color:rgb(255, 255, 255);
-  width: 420px;
-  margin-left: 300px;
-  margin-top: 20px;
-  padding: 8px;
+  width: 100%;
+  padding: 50px 210px;
   border: none;  
+    margin:0 auto;
   border-radius: 8px;
 }
 
