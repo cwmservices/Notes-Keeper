@@ -8,6 +8,7 @@ body{
 
 /* Modal Styling starts here...*/
 .button-div{
+    width:100%;
   display:flex;
     justify-content:center;
     align-items:center;
@@ -15,8 +16,6 @@ body{
 .addNoteButton{
   background-color:rgb(255, 255, 255);
   width: 420px;
-  margin-left: 300px;
-  margin-top: 20px;
   padding: 8px;
   border: none;  
   margin:0 auto;
