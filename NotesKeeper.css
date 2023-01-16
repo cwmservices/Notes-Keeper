@@ -7,12 +7,19 @@ body{
 /* Global styling ends here... */
 
 /* Modal Styling starts here...*/
+.button-div{
+  display:flex;
+    justify-content:center;
+    align-items:center;
+}
 .addNoteButton{
   background-color:rgb(255, 255, 255);
-  width: 100%;
-  padding: 50px 210px;
+  width: 420px;
+  margin-left: 300px;
+  margin-top: 20px;
+  padding: 8px;
   border: none;  
-    margin:0 auto;
+  margin:0 auto;
   border-radius: 8px;
 }
 
